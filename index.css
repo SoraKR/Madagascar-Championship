@@ -20,8 +20,8 @@ header
 
 #logo img
 {
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
 }
 
 #espace_membre
@@ -72,6 +72,7 @@ section
 }
 article
 {
+	height : 50 %;
     border: 10 px; 
     border-style: double;
     font-size: 10 em;
@@ -80,6 +81,7 @@ article
 
 footer
 {
+	clear: both;
     list-style-type: none;
     display: flex;
     margin-left: 15 px;
@@ -87,4 +89,11 @@ footer
     color: brown;
     padding-bottom: 3px;
     text-decoration: none;
+}
+img[title='images_maj]
+{
+	float: left;
+	height: 30%;
+	width: 25%;
+	height : 15 %;
 }
