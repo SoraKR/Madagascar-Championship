@@ -1,0 +1,90 @@
+header
+{
+  border: 10 px;
+  border-style: double;
+  border-width: 100 px;
+  border-color: black;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+}
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 15 px;
+}
+
+#logo img
+{
+    width: 60px;
+    height: 60px;
+}
+
+#espace_membre
+{
+    border: 10 px;
+    border-style: double;
+    display: flex;
+    flex-direction: row;
+    text-transform: none;
+    align-items: baseline;
+    margin-left: 15px;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-left: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: brown;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+}
+
+header h1
+{
+    font-size: 5 px;
+    font-weight: normal;
+}
+
+section
+{
+    border: 10 px;
+    border-style: double;
+}
+article
+{
+    border: 10 px; 
+    border-style: double;
+    font-size: 10 em;
+    font-weight: normal;
+}
+
+footer
+{
+    list-style-type: none;
+    display: flex;
+    margin-left: 15 px;
+    font-size: 0.25 em;
+    color: brown;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
