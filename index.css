@@ -2,12 +2,13 @@ header
 {
   border: 10px;
   border-style: double;
-  border-width: 100px;
+  border-width: 10px;
   border-color: black;
   background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  
 }
 
 #logo
@@ -20,29 +21,38 @@ header
 
 #logo img
 {
-    width: 100px;
-    height: 50px;
+    width: 250px;
+    height: 200px;
+	position : relative ;
 }
 
 #espace_membre
 {
     border: 10px;
     border-style: double;
-    display: flex;
-    flex-direction: row;
     text-transform: none;
     align-items: baseline;
-    margin-left: 15px;
+	position :absolute;
+	top :5%; 
+	right: 10%;
 }
 nav ul
 {
     list-style-type: none;
     display: flex;
+	position :absolute;
+	left : 0%;
+	top : 23%;
+	width : 100%;
 }
 
 nav li
 {
     margin-left: 15px;
+	width: 12%;
+	border : 4px;
+	border-style:inset;
+	border-color : maroon;
 }
 
 nav a
@@ -67,10 +77,14 @@ header h1
 
 section
 {
-	margin: 20px;
+	width : 750px;
+	margin-left : 200px;
+	margin-top: 20px;
     border: 10px;
     border-style: ridge;
 	box-shadow: 6px 6px 3px black;
+	background-color :rgba(255,255,255,0.7);
+
 }
 article
 {
@@ -79,8 +93,10 @@ article
 	height : 350px;
     border: 10 px; 
     border-style: double;
-    font-size: 10 em;
-    font-weight: normal;
+	border-color: rgb(246,233,152);
+    
+
+	
 }
 
 
@@ -90,7 +106,7 @@ footer
     list-style-type: none;
     display: flex;
     margin-left: 15px;
-    font-size: 0.25 em;
+    font-size: 2em;
     color: brown;
     padding-bottom: 3px;
     text-decoration: none;
@@ -100,4 +116,39 @@ footer
 	float: left;
 	width : 350px;
 	height : 300px;
+	margin-right : 20px;
+	box-shadow : 3px 3px 3px black;
 }
+body
+{
+	background-image : url("data/fond.jpg");
+}
+article h1,p
+{
+	margin : 5px;	
+}
+article h1
+{
+	font-size: 2em;
+}
+article p
+{
+	font-size : 1em;
+}
+footer li
+{
+	
+	margin : 15px;
+	font-size : 2em;
+}
+footer ul
+{
+    list-style-type: none;
+    display: flex;
+	position :relative;
+	left : 200px;
+	bottom: 10px;
+	width : 100%;
+	font-size : 0.5em;
+}
+
