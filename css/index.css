@@ -92,7 +92,7 @@ section
 	margin-left: 12.5%;
 	margin-right: 12.5%;
 	margin-top: 2%;
-	box-shadow: 6px 6px 3px black;
+	
 
 }
 .images_accueil
@@ -115,6 +115,7 @@ article
 	border-color: rgb(246,233,152);
 	background-color :rgba(238,238,221,1);
 	margin-bottom: 40px;
+	box-shadow: 6px 6px 3px black;
 }
 
 article a
