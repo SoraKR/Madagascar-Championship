@@ -94,3 +94,12 @@ footer li
 	margin-left: 25px;
 	margin-right: 25px;
 }
+/*-----------Zone dédiée au fond de chaque pages------------*/
+body
+{
+	padding: 0;
+	margin: 0;
+	background-image : url("../data/fond.jpg");
+	font-family: 'Calibri';
+	font-size: 1.13333em;
+}
