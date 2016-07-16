@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title> Bienvenue sur League Of Madagascar !!</title>
+    <link rel="stylesheet" href="loggin.css" />
+</head>
+<body>
+    <img src="../data/logo_pixelart.png" />
+    <div id="loggin_box">
+        <h1 id="hi"> Salutation, Invocateur Malagasy !!</h1></br>
+        <h1 id="logU"> Connecte-toi !!</h1>
+        <form action="/loggin" method="post" id="loggin">
+            <div id="container">
+                <input type="text" id="pseudo" placeholder="Pseudonyme ..." autofocus />
+                <input type=image id="submit" src="../data/play_loggin.png" alt="Submit Form"/>
+            </div>
+        </form>
+    </div>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+        <script type="text/javascript">
+            $('#loggin').submit(function(){
+                socket.emit('pseudo',$('#pseudo').val);
+            });
+            
+        
+        </script>
+    
+</body>
+
+</html>

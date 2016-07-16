@@ -1,0 +1,115 @@
+@font-face {font-family: "Dina";
+    src: url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.eot");
+    src: url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.svg#Andina") format("svg");
+}
+body,html{
+    font-family: "Dina";
+    max-height:100% ;
+    min-height: 100%;      
+}
+body {
+     background-image:url("../data/background-pixel-1.jpg");
+     background-size: cover;
+}
+li {
+    padding-left: 8px;
+    list-style: none;
+    float: left;
+    width: 185px; 
+    text-align: center;
+    border-left-width: 1px;
+    border-left-style:groove;
+    border-left-color: cadetblue;
+    border-right-width: 1px;
+    border-right-style:groove;
+    border-right-color: cadetblue;
+    padding-bottom: 0;
+    padding-top: 5px;
+    margin-bottom: 0;
+    margin-top:0;
+    height: 100%;
+}
+#footblock{
+    margin-bottom: 0;
+    margin-top:0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1px;
+    height: 100%;
+    width: 100%;
+ 
+    
+}
+.to:hover {
+    animation-name: onglet;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes onglet{
+    from{
+        background-color: cadetblue;
+        box-shadow: 0px 0px 0px black;
+    }
+    to{
+        background-color: grey;
+        box-shadow: 4px 3px 3px black;
+    }
+}
+div {
+    position: relative;
+}
+#infouser {
+    background-color: beige;
+    max-width: 35%;
+    min-width: 25%;
+    position: fixed;
+    left:5px;
+    bottom :35px;
+    border: 4px ridge white;
+}
+#infouser h1{
+    background-color: black;
+    color:darkgoldenrod;
+    border: 1px ridge white;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+
+#footbar {
+    margin-top:180px;
+    position: fixed;
+    left :0;
+    width: 100%;
+    height:35px;
+    bottom:0;
+    display: inline-block;
+    border-top : 1px outset black;
+  
+    background-color:cadetblue;
+    color :darkorange;
+    
+}
+#footbar img{
+    max-height: 75%;
+    display: inline-block;
+    float: right;
+    min-width: 50px;
+    width:50px;
+    margin-left: 20px;
+    margin-right: 25px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+   }
+#footbar img:hover{
+    width:53px;
+    margin-left: 17px;
+    padding-left: 0;
+}
+

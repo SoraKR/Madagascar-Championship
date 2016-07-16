@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title > naked_page</title>
+        <link rel="stylesheet" href="naked_page.css" />
+    </head>
+    <body >
+        <div>
+        <!-- insert html code here -->
+              <div id="infouser" style="display :none;">
+                <h1> Information joueur</h1>  
+                <p> Nom du joueur </p>
+                <p> Rang </p>
+                <p> Nom de l'équipe : </p>
+                <p> Chef d'équipe </p>
+                
+            </div>
+            
+        <footer id="footbar">
+                <ul id="footblock">
+                    <li id="info">Info Joueur </li>
+                    <li href='#' class="to"> Accueil </li>
+                    <li href='#' class="to"> Streaming </li>
+                    <li href='#' class="to"> Tournoi </li>
+                    <li href='#' class="to"> Ligue </li>
+                    <li href='#' class="to"> Dons </li>
+                    <img src="../data/facebook.png" alt="facebook" href="#"/>
+                    <img src="../data/twitter.png" alt="twitter" href="#"/>
+                    
+                </ul>
+                
+                
+            </footer>
+            
+            </div>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+        <script type="text/javascript">
+           var info=document.getElementById("info");
+           var getInfo=document.getElementById("infouser");
+           info.onmouseover=function(){mouseOver()};
+           info.onmouseout=function(){mouseOut()};
+            
+            function mouseOver(){
+                getInfo.style.display="block";
+                info.style.backgroundColor="grey";
+            }
+            function mouseOut(){
+                getInfo.style.display="none";
+                info.style.backgroundColor="cadetblue";
+            }
+                      
+            
+            
+        </script>
+    </body>
+
+
+</html>

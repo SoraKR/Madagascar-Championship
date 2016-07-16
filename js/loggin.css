@@ -1,0 +1,77 @@
+@font-face {font-family: "Dina";
+    src: url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.eot");
+    src: url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/7d6e7478a2f4851e5b1091a785792966.svg#Andina") format("svg");
+}
+#hi{
+    font-family:"Dina";   
+    margin-left: 15%;
+    margin-right: 15%;
+    width:70%;
+    position: static;
+    text-align: center;
+    margin-bottom: 1px;
+}
+#logU {
+    
+    font-family:"Dina";   
+    position: static;
+    margin-top: 2px;    
+    margin-left: 29%;
+    margin-left: 32%;
+    margin-right: 25%;
+    
+}
+
+body {
+    width: 55%;
+    background-image:url(../data/loggin_background.png);
+    background-attachment: fixed;
+}
+#loggin_box {
+    width: 750px;
+    margin-left: 35%;
+    border-style:outset;
+    border-width: 5px;
+    border-color: black;
+    background-color: beige;
+}
+img {
+    margin-left: 46%;
+    width: 600px;
+    height:400px;
+    top:1px;
+    
+}
+form {
+    height :150px;
+}
+#container{
+    
+}
+#pseudo{
+   
+    margin-left: 36%;
+    margin-right: 36%;
+    width: 200px;
+    height: 50px;
+    font-size: 1.4em;
+    font-family: "Dina";
+}
+#submit {
+
+    width:150px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-left: 39%;
+    margin-right: 39%;
+    margin-top: 15px;
+    opacity:1;
+    }
+#submit:hover{
+    opacity: 0.2;
+    
+}
